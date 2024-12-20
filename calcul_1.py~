@@ -14,11 +14,11 @@ if not (1 <= numder_1 <= 10 and 1 <= numder_2 <= 10):
     raise ValueError("Числа должны быть в диапазоне от 1 до 10")
 
 if operator == '+':
-    result = numder_1 + numder_2
+    print(numder_1 + numder_2)
 elif operator == '-':
-    result = numder_1 - numder_2
+    print(numder_1 - numder_2)
 elif operator == '*':
-    result = numder_1 * numder_2
+    print(numder_1 * numder_2)
 elif operator == '/':
-    result = numder_1 // numder_2
-print(result)
+    print(numder_1 // numder_2)
+
